@@ -1,0 +1,17 @@
+# just a flag
+NODE_ENV = 'staging'
+
+# base api
+VUE_APP_BASE_API = '/v1'
+
+# 版本号
+VUE_APP_VERSION = '1.0.0'
+
+# RSA密钥
+VUE_APP_RSA_SECRET_KEY = ''
+
+# MD5密钥
+VUE_APP_MD5_SECRET_KEY = ''
+
+# babel
+VUE_CLI_BABEL_TRANSPILE_MODULES = true
