@@ -37,9 +37,9 @@ const actions = {
     return new Promise((resolve, reject) => {
       login(userInfo)
         .then(response => {
-          const { data } = response;
-          commit("SET_TOKEN", data.access_token);
-          setToken(data.access_token);
+          const { token } = response;
+          commit("SET_TOKEN", token);
+          setToken(token);
           resolve();
         })
         .catch(error => {

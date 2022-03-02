@@ -15,7 +15,7 @@ const service = axios.create({
 service.interceptors.request.use(
   config => {
     if (getToken()) {
-      config.headers['Authorization'] = encodeURIComponent(getToken())
+      config.headers['Authorization'] = getToken()
     }
     config.headers['platform'] = 2
     config.headers['Content-Type'] = 'application/x-www-form-urlencoded'

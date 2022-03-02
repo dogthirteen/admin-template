@@ -13,4 +13,7 @@ export const customRouter = [
       }
     ]
   },
+
+  // 404 page must be placed at the end !!!
+  { path: "*", redirect: "/404", hidden: true }
 ];

@@ -6,11 +6,16 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
-    "express-session": "^1.17.2"
+    "express-jwt": "^6.1.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "set NODE_ENV=development && nodemon app.js",
+    "staging": "set NODE_ENV=staging && nodemon app.js",
+    "production": "set NODE_ENV=production && nodemon app.js"
   },
   "author": "",
   "license": "ISC"

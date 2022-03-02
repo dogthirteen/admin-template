@@ -1,0 +1,19 @@
+let config = {
+  secretKey: `MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALpzhXyp3rczrbGk
+  l6oYJUdCsnUSUtLu3Vh3V/qm69Y66YTgVhdQCreqHif6Xk6OVLHOmpDgFWOVK7Bn
+  Ju5aqFvNJotzwTZdk2DqIKniYox3a0u2Ypi3jgqPAqYDcUBr0xzn85oKdpoKkAED
+  rN5mpaNksCQXvz/kMqdZvyy8+2clAgMBAAECgYBsofIceDyzMQD6h5N2HytZIZso
+  asym6VU9vgsclzTBVQHJ0YtXeeNEr3FyiYV476SZFG8qCeVsZ/VUikU8isWb+FCw
+  4gsMxY+NBU5yuiK+EXnQY9MT9+m9GSGKSKXtGNilWeaFbhc6xc4Vr1MoWPtQ7gwD
+  wNo7sKWao1sEqfCzAQJBAOQfyfRvFwNqFe4lpeB6BdE6QHTc7/4ngt7re5gT9aAC
+  N+k3/hXPSVdzvfn5kbnUH297S3RfjLb41WJMcFgPW/0CQQDRPB1bFz05Ch0YAiYd
+  jByH43mnFWcAUkapt5CvzSLmYWY9B+H43Ahdqf7wU0uFX0KRTgrqSvdhkKIeIn9u
+  fJxJAkBkv+Vhnu57A49L7jSkPz/yd9efxTP4+1pBOZ8MO0Rvtosa5S/CUhoCFYwB
+  qsdBWv3HLpzUeJ6c8KjNERVMzvvBAkEAkY7YfT41gTDf/IvCKFwInSBKyUnCVh7m
+  ubrSFPsIhGzNyzdopM+tojtY96d6qlYS4TMBtOxiHKWZoo0tSZe2wQJBAMj3ybdp
+  /4dtKfrZ4bWyBh7ON73Ic0ldZCnGFTyb6uvuC/crxawMu64Rekf2hZWZi0BWzJ5J
+  bup7hjPwW2azE3E=`
+}
+
+
+module.exports = config
