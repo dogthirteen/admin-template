@@ -6,10 +6,10 @@ import jsrsasign from "jsrsasign";
  * @param {Object} data 请求参数
 */
 
-const isEncryptRsa = data => {
+const isEncryptRsa = (data = {}) => {
 
   let key = process.env.VUE_APP_RSA_SECRET_KEY
-  
+
   let keys = jsrsasign.KEYUTIL.getKey(key);
 
   // 创建 Signature 对象

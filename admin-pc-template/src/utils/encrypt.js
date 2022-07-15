@@ -5,12 +5,8 @@ import md5 from "@/assets/js/md5.js";
  * @param {Object} req 请求参数
  */
 
-const encrypt = req => {
+const encrypt = (req = {}) => {
   let req_data = req;
-
-  if (Object.prototype.toString.call(req_data) !== "[object Object]") {
-    req_data = {};
-  }
 
   // const PRIVATEKEY = process.env.VUE_APP_MD5_SECRET_KEY //密钥
 
